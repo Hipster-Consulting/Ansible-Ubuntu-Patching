@@ -1,0 +1,6 @@
+[vms]
+192.168.0.31 ansible_user=vmadmin
+192.168.0.20 ansible_user=vmadmin
+192.168.0.21 ansible_user=vmadmin
+192.168.0.22 ansible_user=vmadmin
+192.168.0.27 ansible_user=vmadmin
