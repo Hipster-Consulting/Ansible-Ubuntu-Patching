@@ -1,7 +1,9 @@
 ---
 
-- name: Apt Update
-  command: apt Update
-  
-- name: Apt Dist-Upgrade
-  command: apt dist-upgrade -y
+- name: apt update
+  apt:
+    update_cache: yes
+
+- name: apt dist-upgrade
+  apt:
+    upgrade: dist
