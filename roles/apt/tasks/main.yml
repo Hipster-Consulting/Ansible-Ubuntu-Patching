@@ -1,5 +1,7 @@
 ---
-  - name: Apt Update
-    command: apt Update
-  - name: Apt Dist-Upgrade
-    command: apt dist-upgrade -y
+
+- name: Apt Update
+  command: apt Update
+  
+- name: Apt Dist-Upgrade
+  command: apt dist-upgrade -y
