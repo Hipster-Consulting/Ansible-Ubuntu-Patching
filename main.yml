@@ -4,8 +4,6 @@
 - name: Updating Ubuntu Server
   hosts: all
   remote_user: vmadmin
-  become_method: sudo
-  become_user: root
 
   roles:
     - apt
